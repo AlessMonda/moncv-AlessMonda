@@ -26,11 +26,11 @@ body{
   padding-top: 30px;
 }
 
-@media (min-width: 0px) { 
-    .profile{
+#profile{
+  background: url("../static/img/background.jpg") no-repeat center;
+}
 
-    }
-    
+@media (min-width: 0px) { 
     .categorie-titre{
       text-align: left;
     }
@@ -40,11 +40,7 @@ body{
     }
  }
 
- @media (min-width: 970px) { 
-    .profile{
-    
-    }
-    
+ @media (min-width: 970px) {     
     .categorie-titre{
       text-align: right;
     }
