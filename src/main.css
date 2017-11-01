@@ -1,8 +1,8 @@
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #C5CAE9;
-  font-size: 13px;
-  color: #263238;
+  background-color: #eeeeee;
+  font-size: 14px;
+  color: #000000;
 }
 
 .categorie-titre{
@@ -14,9 +14,21 @@ body{
   color: #90A4AE;
 }
 
+.section-pair{
+  background-color: #f69779;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.section-impair{
+  background-color: #eeeef2;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
 @media (min-width: 0px) { 
     .profile{
-    
+
     }
     
     .categorie-titre{
