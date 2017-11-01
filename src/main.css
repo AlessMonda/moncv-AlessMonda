@@ -30,6 +30,11 @@ body{
   background: url("../static/img/background.jpg") no-repeat center;
 }
 
+.list-group{
+  width: 300px;
+  text-align: left;
+}
+
 @media (min-width: 0px) { 
     .categorie-titre{
       text-align: left;
