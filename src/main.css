@@ -32,6 +32,10 @@ body{
   background: url("../static/img/background.jpg") no-repeat center;
 }
 
+h1{
+  color: #FFFFFF;
+}
+
 .list-group{
   width: 300px;
   text-align: left;
