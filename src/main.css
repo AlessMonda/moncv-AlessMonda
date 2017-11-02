@@ -10,12 +10,12 @@ body{
 }
 
 .sous-titre{
-  font-size: 11px;
+  font-size: 12px bold;
   color: #90A4AE;
 }
 
 .section-pair{
-  background-color: #f69779;
+  background-color: #3685B5;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -41,7 +41,7 @@ body{
     }
 
     .sous-titre{
-      text-align: left;
+      text-align: right;
     }
  }
 
