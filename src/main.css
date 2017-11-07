@@ -1,6 +1,6 @@
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #eeeeee;
+  background-color: #E0DACB;
   font-size: 14px;
   color: #000000;
 }
@@ -26,6 +26,7 @@ body{
   background-color: #eeeef2;
   padding-bottom: 30px;
   padding-top: 30px;
+
 }
 
 #profile{
@@ -48,6 +49,15 @@ h1{
 
     .sous-titre{
       text-align: left;
+    }
+
+    .section-impair{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .section-pair{
+      padding-left: 10px;
+      padding-right: 10px;
     }
  }
 
