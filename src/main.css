@@ -16,17 +16,17 @@ body{
   padding-top: 5px;
 }
 
-.section-pair{
-  background-color: #3685B5;
+.section-impair, .section-pair{
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
+.section-pair{
+  background-color: #3685B5;
+}
+
 .section-impair{
   background-color: #eeeef2;
-  padding-bottom: 30px;
-  padding-top: 30px;
-
 }
 
 #profile{
@@ -43,36 +43,18 @@ h1, h2, h3{
 }
 
 @media (min-width: 0px) { 
-    .categorie-titre{
+    .categorie-titre, .sous-titre{
       text-align: left;
     }
 
-    .sous-titre{
-      text-align: left;
-    }
-
-    .section-impair{
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    .section-pair{
+    .section-impair, .section-pair{
       padding-left: 10px;
       padding-right: 10px;
     }
  }
 
  @media (min-width: 970px) {     
-    .categorie-titre{
+    .categorie-titre, .sous-titre{
       text-align: right;
     }
-
-    .sous-titre{
-      text-align: left;
-    }
   }
-
-
-
-
-
-
