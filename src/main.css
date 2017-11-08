@@ -30,6 +30,10 @@ body{
   background-color: #eeeef2;
 }
 
+.no-bullet{
+  list-style: none;
+}
+
 #profile{
   background: url("../static/img/background.jpg") no-repeat center;
   text-align: center;
