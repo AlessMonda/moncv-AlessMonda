@@ -25,6 +25,11 @@ $(document).ready(() => {
                             data: [value, remainingValue]
                         }
                     ]
+                },
+                options: {
+                    tooltips: {
+                        enabled: false
+                    }
                 }
             });
     });
