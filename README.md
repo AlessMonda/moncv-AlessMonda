@@ -1,8 +1,17 @@
-# moncv
+# CV - Alessandro Mondaini
 
-> A Vue.js project
+> Réalisation d'une page web présentant un CV durant le module "Projet de technologies WEB de présentation"
 
-## Build Setup
+## Programmes utilisés
+- Visual Studio Code
+- Gimp
+- Google Chrome
+- Firefox
+- Microsoft Edge
+
+## Technologies utilisés
+- Bootstrap
+- 
 
 ``` bash
 # install dependencies
