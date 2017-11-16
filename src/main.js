@@ -4,9 +4,16 @@ import './main.css';
 
 import 'jquery-smooth-scroll';
 import Chart from 'chart.js';
+import 'jquery-gotop';
 
 $(document).ready(() => {
     $('a').smoothScroll();
+
+    $('#goTop').goTop({
+        'place': 'right',
+        'marginY': '3',
+        'marginX': '3'
+    });
 
     $('.progress').each((index, element) => {
         let value = $(element.children).attr('aria-valuenow');
