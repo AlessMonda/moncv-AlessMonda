@@ -37,6 +37,7 @@ body{
 #profile{
   background: url("../static/img/background.jpg") no-repeat center;
   text-align: center;
+  background-size: cover;
 }
 
 .img-profile, .liste-profile{
