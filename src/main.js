@@ -22,22 +22,22 @@ $(document).ready(() => {
 
         let ctx = $('#chart-' + index);
 
-            //eslint-disable-next-line
-            new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    datasets: [
-                        {
-                            backgroundColor: ['#3e95cd', '#FFFFFF'],
-                            data: [value, remainingValue]
-                        }
-                    ]
-                },
-                options: {
-                    tooltips: {
-                        enabled: false
+        //eslint-disable-next-line
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                datasets: [
+                    {
+                        backgroundColor: ['#3e95cd', '#FFFFFF'],
+                        data: [value, remainingValue]
                     }
+                ]
+            },
+            options: {
+                tooltips: {
+                    enabled: false
                 }
-            });
+            }
+        });
     });
 });
