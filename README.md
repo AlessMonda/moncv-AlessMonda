@@ -1,5 +1,5 @@
 # CV - Alessandro Mondaini
-    643-1.1 Projet de technologies WEB de présentation643-1.1
+    643-1.1 Projet de technologies WEB de présentation
     Haute-Ecole de gestion Arc
     2017-2018
 > Réalisation d'une page web présentant mon CV
@@ -8,6 +8,7 @@
 ## Programmes utilisés
 - Visual Studio Code
 - Gimp
+- GitHub Desktop
 - Google Chrome
 - Firefox
 - Microsoft Edge
@@ -131,9 +132,8 @@ import './main.css';
 ```
 ## Serveur de développement
 * Démarrage du serveur de développement (permet de voir en "live" les modifications effectuées)
-``` bash
-npm run dev
-```
+> npm run dev
+
 * Stopper le serveur de développement
 > CTRL+C
 
@@ -230,7 +230,7 @@ $('.progress').each((index, element) => {
 ```
 ### GoTop (Ajoute un icône de flèche permettant de scroll jusqu'en haut de la page)
 1. Installation du package
-> npm install jquery-gotop
+> npm install jquery-gotop --save
 2. Modifier le fichier src/main.js en y ajoutant : 
 ``` bash
 import 'jquery-gotop';
